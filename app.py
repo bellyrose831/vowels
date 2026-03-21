@@ -1,9 +1,8 @@
 #source: https://ttsmp3.com/
 #source: https://render.com/docs/deploy-flask
 #source: https://dashboard.render.com/web/srv-d6uu461aae7s73f7qmog/deploys/dep-d6uu46haae7s73f7qn10
+#deployment link: https://dashboard.render.com/
 
-#python -m venv flaskvowels
-#flaskvowels/Scripts/activate
 #pip install flask
 #run using "python app.py"
 
