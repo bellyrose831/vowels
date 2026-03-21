@@ -8,6 +8,7 @@
 #run using "python app.py"
 
 from flask import Flask, render_template
+import os
 
 app = Flask(__name__)
 
@@ -16,4 +17,5 @@ def home():
     return render_template('main.html')
 
 if __name__ == '__main__':
-   app.run(port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
