@@ -11,9 +11,13 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/')
-def home():
+@app.route('/vowels')
+def vowels():
     return render_template('main.html')
+
+@app.route('/')
+def sounds():
+    return render_template('sounds.html')
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
