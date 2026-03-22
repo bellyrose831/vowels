@@ -1,0 +1,101 @@
+html, body {
+    background-color: #FFEEDB;
+    color: black;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.card {
+    border: 1pt #563F1B solid;
+    background-color: #563f1b;
+    color: white;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    border-radius: 25px;
+    /* box-shadow: 10px 10px #38726c; */
+    border: 10px outset #493657;
+}
+
+.card:active, .card:hover {
+    border: 10px inset #493657;
+    color: black;
+}
+
+#cardholder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#content {
+    width: 100%;
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#pointsdiv {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+}
+
+#playdiv {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#instructions {
+    padding: 2px 10px 3px 10px;
+    border: 4px outset #9C9407;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    vertical-align: bottom;
+    font-size: 20px;
+    background-color: #F7F052;
+    color: black;
+} 
+
+#instructions:active, #instructions:hover {
+    border: 4px inset #9C9407;
+    vertical-align: middle;
+    background: #F7F052;
+    text-decoration: none;
+}
+
+#play {
+    padding: 2px 10px 3px 10px;
+    border: 4px outset #8968A1;
+    background: #493657;
+    color: #FFF;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+#play:active, #play:hover {
+    border: 4px inset #8968A1;
+    vertical-align: middle;
+    background: #493657;
+    color: #8968A1;
+    text-decoration: none;
+}
