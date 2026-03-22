@@ -5,7 +5,7 @@ function playVowels() {
 
 
 function playASound() {
-    var ASound = new Audio('static/A.mp3')
+    var ASound = new Audio('static/names/A.mp3')
     ASound.play()
     setTimeout(changeAButton, 1750);
 }
@@ -27,7 +27,7 @@ function changeAButton() {
 }
 
 function playESound() {
-    var ESound = new Audio('static/E.mp3')
+    var ESound = new Audio('static/names/E.mp3')
     ESound.play()
     setTimeout(changeEButton, 1750);
 }
@@ -49,7 +49,7 @@ function changeEButton() {
 }
 
 function playISound() {
-    var ISound = new Audio('static/I.mp3')
+    var ISound = new Audio('static/names/I.mp3')
     ISound.play()
     setTimeout(changeIButton, 1750);
 }
@@ -71,7 +71,7 @@ function changeIButton() {
 }
 
 function playOSound() {
-    var OSound = new Audio('static/O.mp3')
+    var OSound = new Audio('static/names/O.mp3')
     OSound.play()
     setTimeout(changeOButton, 1750);
 }
@@ -93,7 +93,7 @@ function changeOButton() {
 }
 
 function playUSound() {
-    var USound = new Audio('static/U.mp3')
+    var USound = new Audio('static/names/U.mp3')
     USound.play()
     setTimeout(changeUButton, 1750);
 }
@@ -115,7 +115,7 @@ function changeUButton() {
 }
 
 function playYSound() {
-    var YSound = new Audio('static/Y.mp3')
+    var YSound = new Audio('static/names/Y.mp3')
     YSound.play()
     setTimeout(changeYButton, 1750);
 }
